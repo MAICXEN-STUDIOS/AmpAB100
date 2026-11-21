@@ -1,0 +1,61 @@
+{
+  "deployable": true,
+  "status": "production",
+  "division": "EDGE",
+  "series_name": "AmpAB Series",
+  "product_id": "ampab",
+  "product_name": "AmpAB",
+  "model_id": "ampab-100w",
+  "model_name": "AmpAB100 — 100W Class-AB Linear Audio Power Amplifier",
+  "category": "power",
+  "category_label": "Power Electronics",
+  "display_order": 7,
+  "chip": "Multiwatt-15 Class-AB Stage + VU Driver",
+  "hw_rev": "1.0",
+  "hw_rev_label": "Rev 1.0 · 100W Class-AB",
+  "firmware_version": null,
+  "has_firmware": false,
+  "has_pcb": true,
+  "dimensions": "90.0 × 75.0 mm · 2-Layer Matte-Black ENIG (118 Drills)",
+  "tagline": "100W Linear Class-AB High-Fidelity Audio Power Amplifier with Balanced XLR Input & Optical Peak Telemetry",
+  "description": "90.0×75.0 mm 2-layer matte-black ENIG 100W Class-AB audio power amplifier PCB engineered by MAICXEN EDGE. Features a heatsink-backed Multiwatt-15 monolithic Class-AB power stage (U5 + finned extruded heatsink U8), symmetrical dual-rail reservoir capacitors (-Vs / +Vs / GND), balanced 3-pin XLR input stage, hardware MUTE and STANDBY control switches, and a dedicated 10-pin DIP peak/VU LED driver (U6) with precision trim calibration.",
+  "image": "/images/edge-ampab.jpg",
+  "accent": "#f59e0b",
+  "icon": "volume-2",
+  "svg_template": "ampab",
+  "key_components": [
+    "Multiwatt-15 100W Class-AB Power Stage (U5 + U8 Heatsink)",
+    "Balanced 3-Pin XLR Input & Dual-Rail (-Vs/+Vs/GND) Stage",
+    "DIP-10 Analog Peak/Level LED Driver (U6 + LED1–LED3)",
+    "Hardware MUTE (SW1) & STANDBY (SW2) Control Stage"
+  ],
+  "website_capabilities": [
+    "100W Continuous RMS",
+    "Balanced XLR Input",
+    "Dual-Rail ±Vs Power",
+    "Peak LED Telemetry + Mute/Stby"
+  ],
+  "flasher_capabilities": [],
+  "engineering_note": "Low-noise star-ground layout separating the balanced XLR signal front-end and DIP-10 peak detector from the high-current ±Vs reservoir and Speaker output rails.",
+  "gerber_analysis": {
+    "has_gerber_files": true,
+    "board_count": 1,
+    "primary_width_mm": 90.0,
+    "primary_height_mm": 75.0,
+    "copper_layers": 2,
+    "total_drill_holes": 118,
+    "boards": [
+      {
+        "board_folder": "Gerber_AmpAB100",
+        "width_mm": 90.0,
+        "height_mm": 75.0,
+        "copper_layers": 2,
+        "drill_holes": 118,
+        "has_top_silk": true,
+        "has_bottom_silk": true,
+        "has_paste_mask": false,
+        "gerber_sha256": "f190d93c497f"
+      }
+    ]
+  }
+}
