@@ -19,7 +19,7 @@
   "dimensions": "Compact Heatsink-Backed Audio Power Module",
   "tagline": "100W Linear Class-AB Audio Power Amplifier with Balanced Input & Peak Telemetry",
   "description": "High-fidelity 100W linear Class-AB audio power amplifier module engineered for clean, low-distortion loudspeaker drive. Combines a heatsink-cooled analog output stage, symmetrical dual-rail power filtering, balanced XLR audio input, hardware mute/standby controls, and optical peak level indicators.",
-  "image": "/images/edge-ampab.jpg",
+  "image": "/images/edge-ampab-ampab-100w.webp",
   "accent": "#f59e0b",
   "icon": "volume-2",
   "svg_template": "ampab",
@@ -58,5 +58,14 @@
         "gerber_sha256": "f190d93c497f"
       }
     ]
+  },
+  "render_3d": {
+    "engine": "F3D",
+    "source_file": "PCB/3D_AmpAB100/OBJ_PCB_AmpAB100.obj",
+    "source_sha256": "67c3aae1087d",
+    "recolor": true,
+    "views": {
+      "hero": "/images/edge-ampab-ampab-100w.webp"
+    }
   }
 }
