@@ -59,13 +59,5 @@
       }
     ]
   },
-  "render_3d": {
-    "engine": "F3D",
-    "source_file": "PCB/3D_AmpAB100/OBJ_PCB_AmpAB100.obj",
-    "source_sha256": "67c3aae1087d",
-    "recolor": true,
-    "views": {
-      "hero": "/images/edge-ampab-ampab-100w.webp"
-    }
-  }
+  "emblem": "/images/emblems/edge-ampab-ampab-100w-emblem.webp"
 }
